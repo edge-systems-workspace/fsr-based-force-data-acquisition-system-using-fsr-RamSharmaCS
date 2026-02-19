@@ -10,3 +10,7 @@
  * @author  Ram sharma
  * @date 18 Feb 2026
  */
+
+// Pin Definitions
+int fsrPin = A0;      ///< FSR connected to analog pin A0
+int fsrValue = 0;     ///< Stores analog value read from FSR
